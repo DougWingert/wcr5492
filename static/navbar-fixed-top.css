@@ -121,3 +121,37 @@ body
 .cf:after {
     clear: both;
 }
+
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 16px;
+    margin-bottom: 20px;
+    margin-left:10px;
+    margin-right: 10px;
+}
+
+.sm-logo {
+    width: 30%;
+    margin-left:auto;
+    margin-right: auto;
+    vertical-align: middle;
+}
+
+.large-logo {
+    width: 100%;
+    display:block;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.med-logo {
+    width: 50%;
+    display:block;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+#large-sponsors, #med-sponsors, #sm-sponsors, #sponsors {
+    text-align:center;
+}
